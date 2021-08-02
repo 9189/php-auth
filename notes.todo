@@ -1,0 +1,62 @@
+********* TODO *********
+
+    - session stuff
+    - GET method um signup/login errors anzuzeigen
+    - 2te sticky navbar (nur sichtbar wen logged in)
+    - searchbar in mitte | links logo? 
+    - Übersicht aller Einträge
+    - Sortierung / Karegorisierung
+    - Profilkomponenten
+    - Profilseiten
+
+
+********* Erledigt *********
+
+    - Login / Account Erstellung
+    - mysql db erstellen
+    - db Schema
+    - Basic Frontend (Forms)    
+
+
+********* Features *********
+
+    - Login / Account erstellen
+    - Firma hinzufügen
+    - Profil erstellen
+    - Suchen / Vorschläge
+    - ! Stündliche (?) rotation von Einträgen auf home
+    - Inserate
+
+
+********* Ideen *********
+
+    - follow 
+    - post / Ankündigungen
+    - Gesamttimeline / Followingtimeline
+
+
+********* db Schema *********
+
+    - user
+        - _uid_
+        - username
+        - email
+        - password
+        - ip (UNIQUE)
+
+    - firmen_profil
+        - _pid_
+        - uid (FK)
+        - name
+        - gruendungs_dat
+
+    - ankuendigung
+        - _aid_ 
+        - pid (FK)
+        - post
+        - datum
+
+    - follows
+        - uid
+        - follower_uid
+            -> primary(uid, follower_uid)
