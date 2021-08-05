@@ -4,7 +4,7 @@
 <div>
     <form class="col-3 mx-auto my-5 form-signin w-25" action="../includes/login.inc.php" method="post">
         <div class="text-center mb-5">
-            <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>
+            <h1 class="h3 mb-3 font-weight-normal">Login</h1>
         </div>
         <input type="username" name="uid" class="form-control my-4" placeholder="Username / E-mail" required>
         <input type="password" name="pwd" class="form-control my-4" placeholder="Password" required>
